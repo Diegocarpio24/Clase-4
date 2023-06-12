@@ -1,0 +1,37 @@
+body{
+    --bs-body-font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    background-color: #28A745;
+
+}
+
+nav img{ 
+    display: flex;
+    justify-content: first baseline;
+    width: 100px;
+    margin-left: 15px;
+}
+
+form {
+    background-color: #28A745;
+
+}
+
+footer img{
+    display: flex;
+    height: auto;
+    width: 5em;
+    margin: auto;
+    margin-bottom: 0.70em;
+    padding-top: 1em;
+    padding-bottom: 0em;
+
+}
+
+.card-footer{
+    display: flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+}

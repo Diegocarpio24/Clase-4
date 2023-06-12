@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/518a489c88.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/ccs/style.css">
+    <title>Bootstrap</title>
+    
+    
+</head>
+
+
+<body>
+
+    <nav class="navbar navbar-expand-lg"> <!--Barra de la primera sección en donde encontramos el banner o barra de navegación-->
+       
+        <div class="container-fluid">
+            <a class="navbar-brand">
+            <img src="./assets/img/logo-white.png" alt="CUPPON">
+            </a>
+                <button class="navbar-toggler border-white " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" style="color: white;">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ms-auto fw-medium fs-6">
+                          <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
+                          <a class="nav-link text-white" href="#">Quienes Somos</a>
+                          <a class="nav-link text-white" href="#">Productos</a>
+                          <a class="nav-link text-white" href="#">Contacto</a>
+                        </div>
+                    </div>
+        </div>
+      </nav>
+    
+      <section class="row row-cols-1 row-cols-md-3 g-4 ms-2 me-2 mt-1 mb-2 pb-5"> <!--Card Primer bloque-->
+
+        <div class="col"> <!--Card 1-->
+
+          <div class="card h-100">
+                <img src="./assets/img/cupon-vino.jpg" class="card-img-top" alt="imagen cupon para vino">
+                      <div class="card-body">
+                         <h5 class="card-title fw-light fs-4" style="color: #212529;">Experiencia de cata de vino para aprovechar con nuestro cupon de    descuento del 20%</h5>
+                          <br>
+                         <p class="card-text fw-light" style="color: #707070;">Restaurant Secreto</p>
+                      </div>
+                           <div class="icon ms-3 mb-1">
+                              <i class="fa-solid fa-location-dot" style="color: #707070; font-size: 0.75em; "></i>
+                              <span class="size" style="font-size: 13px; color: #707070; font-weight: 300;"> 2984 Las Condes, Santiago</span>
+                           </div>
+                                  <div class="card-footer text-end bg-white m-0 mb-0">
+                                      <span>
+                                      <small class="text-body-secondary"> <p style="color: #707070; font-weight: 300;font-size: medium; margin-left: 9em;">$50.000</p></small>
+                                      </span> 
+                                      <span>
+                                      <small class="text-body-secondary"> <p style="color: #28A745; font-weight: 500; font-size:x-large;">$25.000</p></small>
+                                    </span>
+                                  </div>
+
+                     
+          </div>
+        </div>
+
+
+        <div class="col"><!--Card 2-->
+
+          <div class="card h-100">
+              <img src="./assets/img/curso-programacion.jpg" class="card-img-top" alt="imagen curso-programacion">
+              <div class="card-body">
+                  <h5 class="card-title fw-light">Aprovecha nuestro curso de Phyton con este cupon del 15% </h5>
+                  <br>  
+                  <p class="card-text">Academia Desafio Latam</p>
+              </div>
+                   <div class="icon ms-3 mb-1">
+                    <i class="fa-solid fa-location-dot" style="color: #707070; font-size: 0.75em;"></i>
+                    <span class="size" style="font-size: 13px; color: #707070;font-weight: 300;"> 1414 Providencia, Santiago</span>
+                  </div>
+                  <div class="card-footer text-end bg-white m-0 mb-0">
+                    <span>
+                    <small class="text-body-secondary"> <p style="color: #707070; font-weight: 300;font-size: medium; margin-left: 9em;">$150.000</p></small>
+                    </span> 
+                    <span>
+                    <small class="text-body-secondary"> <p style="color: #28A745; font-weight: 500; font-size:x-large;">$85.000</p></small>
+                  </span>
+                </div>
+          </div>
+        </div>
+
+
+      <div class="col"> <!--Card 3--> 
+
+        <div class="card h-100">
+            <img src="./assets/img/descuento-roma.jpg" class="card-img-top" alt="imagen de descuento para cupon roma">
+                <div class="card-body">
+                  <h5 class="card-title fw-light">Cyber cupon para viajar a Roma con este 50% de descuento</h5>
+                  <br>
+                  <p class="card-text">Fly Italian Airlines</p>
+                </div>
+                        <div class="icon ms-3 mb-1">
+                          <i class="fa-solid fa-location-dot" style="color: #707070; font-size: 0.75em;"></i>
+                          <span class="size" style="font-size: 13px; color: #707070; font-weight: 300;"> Aeropuerto de Pudahuel, Santiago</span>
+                        </div>
+                        <div class="card-footer text-end bg-white m-0 mb-0">
+                          <span>
+                          <small class="text-body-secondary"> <p style="color: #707070; font-weight: 300;font-size: medium; margin-left: 9em;">$900.000</p></small>
+                          </span> 
+                          <span>
+                          <small class="text-body-secondary"> <p style="color: #28A745; font-weight: 500; font-size:x-large;">$425.000</p></small>
+                        </span>
+                      </div>
+        </div>
+      </div>
+
+
+      <div class="col"> <!--Card 4-->
+
+          <div class="card h-100">
+              <img src="./assets/img/donuts-cuppon.jpg" class="card-img-top" alt="imagen de descuento para cupon de donuts">
+                <div class="card-body">
+                    <h5 class="card-title fw-light">10% de descuento pagango con tu tarjeta Fallabella</h5>
+                     <br>
+                     <p class="card-text">Donking donuts</p>
+                </div>
+                        <div class="icon ms-3 mb-1">
+                          <i class="fa-solid fa-location-dot" style="color: #707070; font-size: 0.75em;"></i>
+                          <span class="size" style="font-size: 13px; color: #707070; font-weight: 300;"> Todas las tiendas del país</span>
+                        </div>
+                        <div class="card-footer text-end bg-white m-0 mb-0">
+                          <span>
+                          <small class="text-body-secondary"> <p style="color: #707070; font-weight: 300;font-size: medium; margin-left: 9em;">$7.890</p></small>
+                          </span> 
+                          <span>
+                          <small class="text-body-secondary"> <p style="color: #28A745; font-weight: 500; font-size:x-large;">$4.990</p></small>
+                        </span>
+                      </div>
+          </div>
+      </div>
+
+
+      <div class="col"> <!--Card 5-->
+
+        <div class="card h-100">
+          <img src="./assets/img/suscripción-de-cafe.jpg" class="card-img-top" alt="imagen hace referencia promocional para un cuppon de suscripción de cafe">
+          <div class="card-body">
+            <h5 class="card-title fw-light">Descuento por todo el mes de mayo en nuestra suscripción de café del 25%</h5>
+            <br>
+            <p class="card-text">Café Blau Roastery</p>
+          </div>
+          <div class="icon ms-3 mb-1">
+            <i class="fa-solid fa-location-dot" style="color: #707070; font-size: 0.75em;"></i>
+            <span class="size" style="font-size: 13px; color: #707070; font-weight: 300;"> 2727 Av.Holanda, Providencia</span>
+          </div>
+          <div class="card-footer text-end bg-white m-0 mb-0">
+            <span>
+            <small class="text-body-secondary"> <p style="color: #707070; font-weight: 300;font-size: medium;">$35.990</p></small>
+            </span> 
+            <span>
+            <small class="text-body-secondary"> <p style="color: #28A745; font-weight: 500; font-size:x-large;">$21.180</p></small>
+          </span>
+        </div>
+        </div>
+      </div>
+      
+
+      <div class="col"> <!--Card 6-->
+
+        <div class="card h-100">
+          <img src="./assets/img/playa-el-faro-anzoategui-venezuela.jpg" class="card-img-top" alt="imagen de descuento para cupon viajero para Playa en el caribe">
+          <div class="card-body">
+            <h5 class="card-title fw-light">Cupon del 40% de descuento para paquete turistico + traslado a la playa ida y vuelta</h5>
+            <br>
+            <p class="card-text">Viajes Cocha</p>
+          </div>
+          <div class="icon ms-3 mb-1">
+            <i class="fa-solid fa-location-dot" style="color: #707070; font-size: 0.75em;"></i>
+            <!--La ultima carta del ejercicio de ejemplo no lleva un icono ni un parrafo extra abajo, pero en esta entrega decidi colocarlo de igual manera, igual se que esto no se esta evaluando como tal pero lo dejo como comment mas que todo como para aclarar que no es que lo hice mal en esta carta al menos xD si no que le quise dar mi estilo a esta ultima carta en cuanto al ICONO y a la descripción-->
+            <span class="size" style="font-size: 13px; color: #707070; font-weight: 300;"> Promoción valida para la web</span>
+          </div>
+            <div class="card-footer text-end bg-white m-0 mb-0">
+              <span>
+              <small class="text-body-secondary"> <p style="color: #707070; font-weight: 300;">$1.200.000</p></small>
+              </span> 
+              <span>
+              <small class="text-body-secondary"> <p style="color: #28A745; font-weight: 500; font-size:x-large;">$840.000</p></small>
+            </span>
+          </div>
+        </div>
+
+      </div>
+
+    </section> <!--fin del primer bloque de las Cards-->
+    
+          <form class="container-fluid mt-4 pt-3 pb-3 text-center"> <!--use la estiqueta form para distingir este segmento para el pequeño banner donde se usa un input para recopilar datos-->
+            <div class="text-white text-center p-1">       
+              <h4 class="fw-medium fs-3">Recibe cupones en tu correo</h4>
+            </div>
+                 <div class="mb-3"> <!--caja de formulario -->
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+                 </div>
+                   <div class="mb-3"> 
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo Electrónico">
+                   </div>
+            <button type="button" class="btn btn-light fw-medium">Enviar</button>
+            
+          </form>
+          
+          <footer style="color: #707070;"> <!--etiqueta footer para la ultima seección de la pagina-->
+            <div>
+              <img src="./assets/img/logo-black.png" alt="logo negro de CUPPON">
+              <p class="fw-light text-center ms-2 me-2">
+                © 2018 Cuppon Latam.Todos los 
+                derechos reservados.</p>
+            </div>
+          </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+
+</html>
